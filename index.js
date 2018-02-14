@@ -20,7 +20,11 @@ var array=[];
   }else{
     for (let i=0; i<katzDeliLine.length; i++){
       array.push(` ${i+1}. ${katzDeliLine[i]}`);
+<<<<<<< HEAD
    }
+=======
+   }    
+>>>>>>> effb83d893952af3d373bdcc06da0a91020dcd0b
     return `The line is currently:${array}`;
   }
 }
